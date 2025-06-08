@@ -1,12 +1,47 @@
-# React + Vite
+# 📊 React Admin Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive analytics dashboard built using **React**, **Vite**, **Tailwind CSS**, and **Recharts**. It displays various visualization pages such as sales analytics, user growth, revenue tracking, and more, using data from dummy APIs and static sources.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 📈 **Dashboard Home**: Line, Bar, and Radial charts with dummy data
+- 📊 **Sales Analytics**: Product stock and price trends from DummyJSON API
+- 👥 **User Growth**: Area chart showing monthly user registrations
+- 📦 **Product Performance**: Pie chart of product categories
+- 💰 **Revenue Breakdown**: Stacked bar chart of revenue vs expenses
+- 🌐 **Traffic Sources**: Doughnut chart of website traffic sources
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+- **React + Vite** – fast frontend tooling
+- **Tailwind CSS** – utility-first styling
+- **Recharts** – chart library for React
+- **Axios** – HTTP client for API calls
+- **React Router DOM** – page routing
+
+---
+
+## 🧑‍💻 Getting Started
+
+### 1. Clone the Repository
+
+```bash
+1. git clone hhttps://github.com/Annibadakh/CSI-Assignment3.git
+cd react-dashboard
+
+2. Install Dependencies
+npm install
+
+3. Start Development Server
+npm run dev
+
+Navigate to http://localhost:5173 in your browser.
+
+🌐 Dummy API Used
+DummyJSON Products API
+
+```
