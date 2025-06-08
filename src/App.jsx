@@ -5,14 +5,16 @@ import Dashboard from "./Dashboard/Dashboard";
 function App() {
   
   return (
-    <BrowserRouter>
-    <Routes>
-      <Route path='/' element={<Dashboard />}>
-        <Route path="" element={<Home />}/>
-      </Route>
-      <Route path="*" element={<h1>404 - Page Not Found</h1>} />
-    </Routes>
-    </BrowserRouter>
+    <div className="font-serif">
+      <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Dashboard />}>
+          <Route path="" element={<Home />}/>
+        </Route>
+        <Route path="*" element={<h1>404 - Page Not Found</h1>} />
+      </Routes>
+      </BrowserRouter>
+    </div>
   )
 }
 

@@ -5,7 +5,7 @@ const Sidebar = ({ isSidebarOpen, clickSidebar }) => {
     const location = useLocation(); 
 
     const links = [
-        { path: "home", label: "Home"},
+        { path: "/", label: "Home"},
         
     ];
 
