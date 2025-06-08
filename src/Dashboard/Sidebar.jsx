@@ -5,7 +5,12 @@ const Sidebar = ({ isSidebarOpen, clickSidebar }) => {
     const location = useLocation(); 
 
     const links = [
-        { path: "/", label: "Home"},
+        { path: "", label: "Home"},
+        { path: "sales", label: "Sales Analytics"},
+        { path: "users", label: "Users Growth"},
+        { path: "products", label: "Product Performance"},
+        { path: "revenue", label: "Revenue Breakdown"},
+        { path: "traffic", label: "Traffic Sources"},
         
     ];
 
@@ -22,7 +27,7 @@ const Sidebar = ({ isSidebarOpen, clickSidebar }) => {
                             <li
                                 key={path}
                                 onClick={clickSidebar}
-                                className={`py-2 px-4 mb-1 rounded-full ${isActive(`/dashboard/${path}`) ? "bg-orange-400" : "hover:bg-orange-400"}`}
+                                className={`py-2 px-4 mb-1 rounded-full ${isActive(`/${path}`) ? "bg-orange-400" : "hover:bg-orange-400"}`}
                             >
                                 <Link to={path}>{label}</Link>
                             </li>
